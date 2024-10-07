@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
 /* This is a CSS comment*/
 
 /* Select by element Type*/
+body{
+    background-color: rgb(199, 219, 236); 
+}
 
 p{
-    color:rgb(96, 173, 198);
+    color:rgb(73, 163, 193);
+    background-color: aliceblue;
 }
 h1, h2,h3,h4, h5, h6, p{
-    font-family:cursive;
+    font-family: "Playwrite DE Grund", cursive;
     
 }
 
+   
 /* Select by CLASS name */
 .border{
     border: 2px solid black;
@@ -19,7 +27,7 @@ h1, h2,h3,h4, h5, h6, p{
 
 /* Select by ID name (unique) */
 #intro{
-    background-color: rgb(240, 255, 240);
+    background-color:aliceblue;
 }
 
 li{
@@ -29,14 +37,19 @@ li{
 
 /* Properties colors and typography*/
 h1{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
     color:deepskyblue;
     background-color:rgb(230, 238, 245);
     font-weight: 900;
     font-style: italic;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    text-align: center;
+   
 }
 
-h1{
-    text-align: center;
+ol{
+    text-align: left;
+    background-color: aliceblue;
+}
+em{
+    background-color: aliceblue;
 }
