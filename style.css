@@ -19,11 +19,7 @@ h1, h2,h3,h4, h5, h6, p{
 
    
 /* Select by CLASS name */
-.border{
-    border: 2px solid black;
-    background-color: aliceblue;
 
-}
 
 /* Select by ID name (unique) */
 #intro{
@@ -50,6 +46,20 @@ ol{
     text-align: left;
     background-color: aliceblue;
 }
-em{
+em, h3{
     background-color: aliceblue;
+}
+/* Box Model: margin, border, padding, context */
+
+img{
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(168, 203, 233);
+    border-radius: 30px;
+    border-style: double;
+}
+hr{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: aliceblue;
 }
