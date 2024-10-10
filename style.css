@@ -27,18 +27,23 @@ h1, h2,h3,h4, h5, h6, p{
 }
 
 li{
-    color:rgb(216, 151, 189)
+    color:rgb(73, 163, 193);
     
 }
 
 /* Properties colors and typography*/
 h1{
     font-family: "Edu AU VIC WA NT Guides", cursive;
-    color:deepskyblue;
+    color:rgb(73, 163, 193);
     background-color:rgb(230, 238, 245);
     font-weight: 900;
     font-style: italic;
     text-align: center;
+    margin: 5%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(191, 209, 228);
+    padding: 7px;
    
 }
 
@@ -46,7 +51,11 @@ ol{
     text-align: left;
     background-color: aliceblue;
 }
-em, h3{
+em {
+    background-color: aliceblue;
+}
+
+.bgd{
     background-color: aliceblue;
 }
 /* Box Model: margin, border, padding, context */
@@ -57,9 +66,16 @@ img{
     border-color: rgb(168, 203, 233);
     border-radius: 30px;
     border-style: double;
+    padding: 5px 5px;
 }
 hr{
     border-width: 5px;
     border-style: dashed;
     border-color: aliceblue;
+}
+
+/* tip: easy way to center anything*/
+.centered-container{
+    margin:auto;
+    text-align: center;
 }
